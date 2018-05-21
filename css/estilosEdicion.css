@@ -1,0 +1,155 @@
+.temas{ 
+	width: 100%; 
+	height: 190px;
+	border-radius: 15px;
+}
+.temas img{
+	width: 50%;
+	margin-top: 10px;
+}
+#salud_publica{
+	background-color: #008FCA;
+}
+#enf_fundamental{
+	background-color: #FF7E00;
+}
+#gerencia{
+	background-color: #FFDE00;	
+}
+#a_mayor{
+	background-color: #F00016;
+}
+#familia{
+	background-color: #009A21;
+}
+#investigacion{
+	background-color: #00CAEE;
+}
+#box1, #box2{
+	margin-top: 30px;
+}
+#btn-1, #btn-2, #btn-3, #btn-4, #btn-5, #btn-6{
+	background-color: #fff;
+	box-shadow: 1px 1px 1px 1px #B8B8B8;
+	color: #000;
+}
+#btn-1, #btn-2, #btn-3, #btn-5{
+	margin-top: 20px;
+}
+.temas p{	
+	font-size: 18px;
+	color: #fff;
+	font-family: 'Anton', serif;
+	margin-top: 10px
+}
+@media only screen and (max-width: 1322px) {
+	#btn-2{
+		margin-top: 0;
+	}
+}
+@media only screen and (max-width: 1275px) {
+	#btn-5{
+		margin-top: 0;
+	}
+}
+@media only screen and (max-width: 1172px) {
+	#btn-2, #btn-4, #btn-5, #btn-6{
+		margin-top: 10px;
+	}
+	#btn-1, #btn-3{
+		margin-top: 40px;
+	}
+}
+@media only screen and (max-width: 1081px) {
+	.temas p{	
+		font-size: 16px;
+	}
+	.temas{ 
+		width: 100%; 
+		height: 170px;
+	}
+	#btn-1, #btn-3{
+		margin-top: 30px;
+	}
+}
+@media only screen and (max-width: 1003px) {
+	.temas p{	
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 870px) {
+	#btn-1, #btn-3{
+		margin-top: 45px;
+	}
+	#btn-2, #btn-5, #btn-6{
+		margin-top: 30px;
+	}
+}
+@media only screen and (max-width: 766px) {
+	.temas{ 
+		width: 100%; 
+		height: 180px;
+	}
+	#box1, #box2{
+		margin-top: 0px;
+	}
+	#salud_publica{
+		margin-top: 30px;
+	}
+	#enf_fundamental{
+		margin-top: 30px;
+	}
+	#gerencia{
+		margin-top: 30px;	
+	}
+	#a_mayor{
+		margin-top: 30px;
+	}
+	#familia{
+		margin-top: 30px;
+	}
+	#investigacion{
+		margin-top: 30px;
+	}
+	#btn-1, #btn-2,#btn-3, #btn-4, #btn-5, #btn-6{
+		margin-top: 0px;
+	}
+	.temas img{
+		width: 30%;
+	}
+
+}
+@media only screen and (max-width: 714px) {
+	.temas{ 
+		width: 100%; 
+		height: 160px;
+	}
+}
+@media only screen and (max-width: 590px) {
+	.temas{ 
+		width: 100%; 
+		height: 140px;
+	}
+}
+@media only screen and (max-width: 476px) {
+	#btn-1, #btn-2,#btn-3, #btn-4, #btn-5, #btn-6{
+		margin-top: 0px;
+	}
+	.temas img{
+		width: 40%;
+	}
+}
+@media only screen and (max-width: 360px) {
+	#btn-1,#btn-3{
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.temas img{
+		width: 60%;
+	}
+	.temas{ 
+		width: 100%; 
+		height: 180px;
+	}
+}

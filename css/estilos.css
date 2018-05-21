@@ -1,0 +1,127 @@
+body{
+    overflow: auto;
+    background-color: #E8E8E8;
+    width: 100%;
+    max-width: 100%;
+}
+.img-center{
+    width: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    display: block;
+}
+#principal{
+    background: url("../images/pasco.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    max-height: 100%;
+}
+#cabecera{
+    background: linear-gradient(#359ED0, #ffffff);
+}
+.navbar-primary .navbar-brand{
+    color: #0057C2;
+    font-family: 'Courgette', cursive;
+}
+.navbar-toggle{
+    background-color: silver;
+}
+.navbar-primary .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+.navbar-primary .navbar-nav > li > a{
+    font-family: 'Anton', sans-serif;
+    font-size: 16px;
+}
+#voto{
+    color: #E90000;
+}
+.navbar-toggle{
+    background-color: silver;
+}
+.navbar-primary .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-primary{
+    background-color: rgba(250,250,250,0.9);
+}
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.affix ~ .container-fluid {
+   position: relative;
+}
+article{
+    background-color: #fff;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 1px #3B3B3B;
+}
+.navbar-right{
+    margin-right: 10px;
+}
+.post-title{
+    color: #0051A3;
+    font-family: 'Acme', sans-serif;
+}
+footer div{
+    background-color: #303030;
+    color: #fff;
+    margin-top: 10px;
+    font-family: 
+}
+#img_footer{
+    width: 25%;
+    max-width: 100%;
+    margin-top: 5px;
+}
+strong{
+    font-family: 'Courgette', cursive;
+}
+.detalles{
+    font-size: 13px;
+    color: #003F80;
+    font-family: 'Courgette', cursive;
+}
+img.img-thumbnail {
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+}
+.text-notice{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.panel{
+    margin-top: 10px;
+}
+.publicidad img{
+    margin: 0;
+}
+.btn-group{
+    margin-top: 10px;
+}
+.str0 {stroke:black;stroke-width:20}
+.fil0 {fill:#787A7F}
+
+.fil0:hover {
+    fill:#ff6c16;
+}
+#info{
+    display: none;
+    margin-top: 10px;
+}
+#box_distrital{
+    display: none;
+}
+#box_provincial{
+    display: none;
+}
